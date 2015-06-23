@@ -6,6 +6,41 @@
 
 /* end */
 
+
+.landing-bg {
+ background-image: url(../img/bg-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 90px;
+}
+
+.white-bg {
+background-color: white;
+}
+
+.white-txt {
+color: white;
+}
+
+.no-padding{padding:0px;}
+.no-margin{margin:0px;}
+
+.margin-5 {margin:5px;}
+.margin-10 {margin:10px;}
+
+.pad-5 {
+padding:5px;
+}
+
+.pad-10 {
+padding:10px;
+}
+
 /* custom theme */
 
 header {
@@ -32,7 +67,7 @@ header {
 /* theme */
 
 body {
-  color:#ffffff;
+  color:#000;
   background-color:#eee;
 }
 
