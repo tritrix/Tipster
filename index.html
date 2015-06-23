@@ -1,78 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta charset="utf-8">
-		<title>Gamblers Unite</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<!--[if lt IE 9]>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>Gamblers Unite</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link href="css/styles.css" rel="stylesheet">
-	</head>
-	<body>
-<nav class="navbar navbar-static">
-    <div class="container">
-      <a class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="glyphicon glyphicon-chevron-down"></span>
-      </a>
-      <div class="nav-collapse collase">
-        <ul class="nav navbar-nav">  
-          <li><a href="#">Home</a></li>
-          <li><a href="log.html">Log and Allow Tips</a></li>
-          <li><a href="verify.html">Verify Tip Win</a></li>
-          <li><a href="tip_accounts.html">Tipster Accounts</a></li>
-          <li><a href="follow_accounts.html">Followers Accounts</a></li>
-        </ul>
-        <ul class="nav navbar-right navbar-nav">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-search"></i></a>
-            <ul class="dropdown-menu" style="padding:12px;">
-                <form class="form-inline">
-                   <div class="input-group">
-                     <input type="text" class="form-control" placeholder="Search">
-                     <div class="input-group-btn">
-     			       <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
-                     </div>
-                  </div>
-                </form>
-              </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> <i class="glyphicon glyphicon-chevron-down"></i></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Login</a></li>
-              <li><a href="#">Profile</a></li>
-              <li class="divider"></li>
-              <li><a href="#">About</a></li>
-             </ul>
-          </li>  
-        </ul>
-      </div>		
-    </div>
-</nav><!-- /.navbar -->
+	<link href="css/styles.css" rel="stylesheet">
+</head>
 
-<header class="masthead">
-  <div class="container">
-   
-  </div>
-  
- 
-</header>
+<body>
+	<nav class="navbar navbar-static">
+		<div class="container">
+			<a class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="glyphicon glyphicon-chevron-down"></span>
+			</a>
+			<div class="nav-collapse collase">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Home</a>
+					</li>
 
-<!-- Begin Body -->
-<div class="container">
+				</ul>
+				<ul class="nav navbar-right navbar-nav">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-search"></i></a>
+						<ul class="dropdown-menu" style="padding:12px;">
+							<form class="form-inline">
+								<div class="input-group">
+									<input type="text" class="form-control" placeholder="Search">
+									<div class="input-group-btn">
+										<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i>
+										</button>
+									</div>
+								</div>
+							</form>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> <i class="glyphicon glyphicon-chevron-down"></i></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Login</a>
+							</li>
+							<li><a href="#">Profile</a>
+							</li>
+							<li class="divider"></li>
+							<li><a href="#">About</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- /.navbar -->
 
 
-	
-</div>
+	<!-- Begin Body -->
+	<div class="container">
+
+
+		<!--Tabs-->
+		<ul class="nav nav-tabs  " role="tablist">
+			<li class="active" role="presentation"><a href="#log" aria-controls="log" role="tab" data-toggle="tab"><span class="fa fa-fw fa-clock-o"></span><span> Log and Allow Tips  </span></a>
+			</li>
+			<li role="presentation"><a href="#verify" aria-controls="verify" role="tab" data-toggle="tab"><span class="fa fa-fw  fa-group"></span> Verify Tip Win </a>
+			</li>
+
+			<li role="presentation"><a href="#tip_account" aria-controls="tip_account" role="tab" data-toggle="tab"><span class="fa fa-fw  fa-group"></span> Tipster Accounts </a>
+			</li>
+
+			<li role="presentation"><a href="#follow_account" aria-controls="follow_account" role="tab" data-toggle="tab"><span class="fa fa-fw  fa-group"></span> Followers Accounts </a>
+			</li>
+
+		</ul>
+		<!-- tabs -->
+
+		<!--			tab content-->
+		<div class="tab-content">
+			<!--log and allow tab-->
+			<div class="tab-pane fade in active" id="log">
+
+			</div>
+			<!--verify Win tab-->
+			<div class="tab-pane fade in " id="verify">
+
+			</div>
+
+			<!--tipster account tab-->
+
+			<div class="tab-pane fade in " id="tip_account">
+			</div>
+
+			<!--Follower account tab-->
+
+			<div class="tab-pane fade in " id="follow_account">
+
+			</div>
+		</div>
+
+
+
+	</div>
 
 
 
 	<!-- script references -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/scripts.js"></script>
-	</body>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+
 </html>
