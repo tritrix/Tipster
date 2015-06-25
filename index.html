@@ -39,13 +39,15 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> <i class="glyphicon glyphicon-chevron-down"></i></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Username</a>
+						<li><a href="#">Create Admin</a>
 							</li>
-							<li><a href="#">Sign Out</a>
+							<li><a href="" data-toggle="modal" data-target="#settings">Settings</a>
 							</li>
 							<li class="divider"></li>
-							<li><a href="#">Create Admin</a>
+							<li><a href="#">Log Out</a>
 							</li>
+							
+							
 						</ul>
 					</li>
 				</ul>
@@ -84,7 +86,7 @@
 		<!--			tab content-->
 		<div class="tab-content">
 			<!--log and allow tab-->
-			<div class="tab-pane fade in active" id="log">
+			<div role="tabpanel" class="tab-pane fade in active" id="log">
 
 				<div class="row">
 					<div class="col-lg-12 p10 m10 white-bg">
@@ -144,7 +146,7 @@
 
 			</div>
 			<!--verify Win tab-->
-			<div class="tab-pane fade in " id="verify">
+			<div role="tabpanel" class="tab-pane fade in " id="verify">
 
 				<div class="row">
 					<div class="col-lg-12 p10 m10 white-bg">
@@ -192,7 +194,7 @@
 
 			<!--tipster account tab-->
 
-			<div class="tab-pane fade in " id="tip_account">
+			<div role="tabpanel" class="tab-pane fade in " id="tip_account">
 
 
 				<div class="row">
@@ -209,7 +211,7 @@
 								<tr>
 									<td>soccer_genius88</td>
 									<td>26382638273983</td>
-									<td><a href="">Click Here</a>
+									<td><a href="#profile_tmpl" data-toggle="tab" >Click Here</a>
 									</td>
 
 								</tr>
@@ -217,14 +219,14 @@
 								<tr>
 									<td>soccer_genius88</td>
 									<td>26382638273983</td>
-									<td><a href="">Click Here</a>
+									<td><a href="#profile_tmpl" data-toggle="tab" >Click Here</a>
 									</td>
 
 								</tr>
 								<tr>
 									<td>soccer_genius88</td>
 									<td>26382638273983</td>
-									<td><a href="">Click Here</a>
+									<td><a href="#profile_tmpl" data-toggle="tab" >Click Here</a>
 									</td>
 
 								</tr>
@@ -245,7 +247,7 @@
 
 			<!--Follower account tab-->
 
-			<div class="tab-pane fade in " id="follow_account">
+			<div role="tabpanel" class="tab-pane fade in " id="follow_account">
 
 				<div class="row">
 					<div class="col-lg-12 p10  m10 white-bg">
@@ -292,11 +294,55 @@
 
 
 			</div>
+			
+			<div role="tabpanel" class="tab-pane fade in " id="profile_tmpl">
+	<div class="row"></div>
+	</div>
 		</div>
 
 
 
 	</div>
+	
+	
+	
+	
+	
+<!--	Settings modal-->
+
+<div class="modal fade " id="settings" tabindex="-1 " role="dialog " aria-labelledby="settings " aria-hidden="true ">
+            <div class="modal-dialog ">
+                <div class="modal-content ">
+                    <div class="modal-header ">
+                        <button type="button " class="close" data-dismiss="modal" aria-hidden="true ">&times;</button>
+                        <h4 class="modal-title "><span class="fa fa-fw fa-cogs fa-x3 "></span> Settings</h4>
+                    </div>
+                    <div class="modal-body ">
+                        <form role="form ">
+                          <h4>Change Password</h4>
+                          <hr>
+                           <div class="form-group">
+                           <label for="">Old Password</label>
+                            <input class="form-control input-sm " type="password " placeholder="Password " style="display:block; margin-top:10px; width:100%; " />
+                            </div>
+                            
+                            <div class="form-group">
+                           <label for="">New Password</label>
+                            <input class="form-control input-sm " type="password " placeholder="New Password " style="display:block; margin-top:10px; width:100%; " />
+                            
+                            <input class="form-control input-sm " type="password " placeholder="Confirm Password " style="display:block; margin-top:10px; width:100%; " />
+                            </div>
+
+                            
+
+                        </form>
+                    </div>
+                    <div class="modal-footer ">
+                        <button type="button " class="btn btn-sm btn-primary " data-dismiss="modal ">Update <span class="fa fa-fw fa-save "> </span> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
