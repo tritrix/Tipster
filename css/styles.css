@@ -19,8 +19,7 @@
 }
 
 .landing-logo-bg {
-background-color:#2ecc71;
- 
+background-color:#2ecc71; 
 }
 
 .landing-logo {
@@ -47,7 +46,7 @@ width: 100%;
   left: 50%;
   background: #fff;
   width: 400px;
-/*	height:230px;*/
+    /*	height:230px;*/
   margin: -140px 0 0 -182px;
 /*  padding: 40px;*/
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
@@ -59,7 +58,7 @@ width: 100%;
   font-size: 18px;
   font-weight: 400;
 }
-.landing-form input {
+.landing-form input,.landing-form select {
   outline: none;
   display: block;
   width: 100%;
@@ -72,7 +71,7 @@ width: 100%;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 14px;
-  font-wieght: 400;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transition: 0.2s linear;
@@ -80,6 +79,9 @@ width: 100%;
   -ms-transition: 0.2s linear;
   -o-transition: 0.2s linear;
   transition: 0.2s linear;
+}
+.landing-form select{
+    color: #000000;
 }
 .landing-form input:focus {
   color: #333;
@@ -119,15 +121,19 @@ color: white;
 .no-padding{padding:0px;}
 .no-margin{margin:0px;}
 
-.margin-5 {margin:5px;}
-.margin-10 {margin:10px;}
+.m5 {margin:5px;}
+.m10 {margin:10px;}
 
-.pad-5 {
+.p5 {
 padding:5px;
 }
 
-.pad-10 {
+.p10 {
 padding:10px;
+}
+
+.p20 {
+padding:20px;
 }
 
 /* custom theme */
