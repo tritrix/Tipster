@@ -3,498 +3,519 @@
 
 <head>
 
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <title>Gamblers Unite</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!--[if lt IE 9]>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>Gamblers Unite</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="plugins/responsive%2520tables/rwd-table.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="plugins/responsive%2520tables/rwd-table.min.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-static">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand white-txt" href="#">
-                     <span><img src="/img/logo.svg" alt="" style=" margin-top:-10px; height:40px; "> Gamblers Unite</span>
-                </a>
-            </div>
-
-
-            <a class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="glyphicon glyphicon-chevron-down"></span>
-            </a>
-            <div class="nav-collapse collase">
-
-                <ul class="nav navbar-right navbar-nav">
-
-
-
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> <i class="glyphicon glyphicon-chevron-down"></i></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Create Admin</a>
-                            </li>
-                           
-                           <li><a href="" data-toggle="modal" data-target="#settings">Settings</a>
- 							</li>
-                            <li class="divider"></li>
-                            <li><a href="#">Sign Out</a>
-                            </li>
-                            
-                            
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- /.navbar -->
-   
-
-    <!-- Begin Body -->
-    <div class="container">
-  <div class="row no-padding no-margin" style="margin-left:1px; margin-bottom:20px;">
-            <h2>Welcome to Gamblers Unite</h2>
-
-        </div>
-
-<div class="tabbable responsive">
-        <!--Tabs-->
-        <ul class="nav nav-tabs " role="tablist">
-            <li class="active" role="presentation"><a href="#log" aria-controls="log" role="tab" data-toggle="tab"><span class="fa fa-fw fa-list-alt "></span><span> Log and Allow Tips  </span></a>
-            </li>
-            <li role="presentation"><a href="#verify" aria-controls="verify" role="tab" data-toggle="tab"><span class="fa fa-fw  fa-rocket"></span> Verify Tip Win </a>
-            </li>
-
-            <li role="presentation"><a href="#tip_account" aria-controls="tip_account" role="tab" data-toggle="tab"><span class="fa fa-fw  fa-user"></span> Tipster Accounts </a>
-            </li>
-
-            <li role="presentation"><a href="#follow_account" aria-controls="follow_account" role="tab" data-toggle="tab"><span class="fa fa-fw  fa-group"></span> Followers Accounts </a>
-            </li>
-
-        </ul>
-        <!-- tabs -->
-
-        <!--			tab content-->
-        <div class="tab-content">
-            <!--log and allow tab-->
-            <div class="tab-pane fade in active" id="log">
-
-                <div class="row ">
-                    <div class="col-lg-12 p10 m10 white-bg table-responsive">
-                        <table class="table table-striped ">
-                            <thead>
-                                <tr>
-                                    <th>Username</th>
-                                    <th>Single/Accumalator</th>
-                                    <th>Sport</th>
-                                    <th>Back/Lay</th>
-                                    <th>Bet</th>
-                                    <th>Odds</th>
-                                    <th>Good to go</th>
-                                    <th>Ref Id</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>soccer_genius88</td>
-                                    <td>Single</td>
-                                    <td>Soccer</td>
-                                    <td>Back</td>
-                                    <td>Team A to beat Team B</td>
-                                    <td>1.21</td>
-                                    <td>Yes</td>
-                                    <td>298308</td>
-                                </tr>
-
-                                <tr>
-                                    <td>soccer_genius88</td>
-                                    <td>Single</td>
-                                    <td>Soccer</td>
-                                    <td>Back</td>
-                                    <td>Team A to beat Team B</td>
-                                    <td>1.21</td>
-                                    <td>Yes</td>
-                                    <td>298308</td>
-                                </tr>
-
-                                <tr>
-                                    <td>soccer_genius88</td>
-                                    <td>Single</td>
-                                    <td>Soccer</td>
-                                    <td>Back</td>
-                                    <td>Team A to beat Team B</td>
-                                    <td>1.21</td>
-                                    <td>Yes</td>
-                                    <td>298308</td>
-                                </tr>
-
-                            </tbody>
-                        </table>
-
-                    </div>
-
-                </div>
-
-            </div>
-            <!--verify Win tab-->
-            <div class="tab-pane fade in " id="verify">
-
-                <div class="row">
-                    <div class="col-lg-12 p10 m10 white-bg table-responsive">
-                        <table class="table table-striped ">
-                            <thead>
-                                <tr>
-                                    <th>Username</th>
-                                    <th>Tip Reference</th>
-                                    <th>Odds</th>
-                                    <th> Status [Successful or Not]</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>soccer_genius88</td>
-                                    <td>26382638273983</td>
-                                    <td>1.21</td>
-                                    <td>Yes</td>
-                                </tr>
-
-                                <tr>
-                                    <td>soccer_genius88</td>
-                                    <td>26382638273983</td>
-                                    <td>1.21</td>
-                                    <td>Yes</td>
-                                </tr>
-
-                                <tr>
-                                    <td>soccer_genius88</td>
-                                    <td>26382638273983</td>
-                                    <td>1.21</td>
-                                    <td>Yes</td>
-                                </tr>
-
-
-
-                            </tbody>
-                        </table>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!--tipster account tab-->
-
-            <div class="tab-pane fade in" id="tip_account">
-
-
-                <div class="row">
-                    <div class="col-lg-12 p10 m10 white-bg table-responsive">
-                        <table class="table table-striped ">
-                            <thead>
-                                <tr>
-                                    <th>Username</th>
-                                    <th>Account Reference</th>
-                                    <th>See Profile</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>soccer_genius88</td>
-                                    <td>26382638273983</td>
-                                    <td><a href="#tip_account_history" data-toggle="tab">Click Here</a>
-                                    </td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>soccer_genius88</td>
-                                    <td>26382638273983</td>
-                                    <td><a href="#tip_account_history" data-toggle="tab">Click Here</a>
-                                    </td>
-
-                                </tr>
-                                <tr>
-                                    <td>soccer_genius88</td>
-                                    <td>26382638273983</td>
-                                    <td><a href="#tip_account_history" data-toggle="tab">Click Here</a>
-                                    </td>
-
-                                </tr>
-
-
-                            </tbody>
-                        </table>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div role="tabpanel" class="tab-pane fade" id="tip_account_history">
-
-                <div class="row">
-
-                    <div class="row no-padding m10 white-bg">
-                        <div class="">
-                            <button type="button"  class="btn btn-sm btn-success m10" data-toggle="tab" data-target="#tip_account"><span class="fa fa-fw fa-angle-left"></span><span class="hidden-xs"> Back </span>
-                            </button>
-                       
-                        
-                        
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-primary">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p10">
-                                <div class="col-lg-2 col-md-3 col-sm-3  col-xs-4 no-padding"> <img class="img-circle" src="http://placehold.it/100x100">
-                                </div>
-                                <div class="col-lg-10 col-md-9 col-sm-9 col-xs-8">
-                                    <h2>UserName</h2>
-                                    <h4>Account Ref : 10000001</h4>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 graph_bg pull-right no-padding no-margin">
-                                
-                                <div class="col-lg-12 p10 table-responsive">
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                               <th> Past </th>
-                                                <th><center>Number Tips</center></th>
-                                                <th>% Success</th>
-                                                <th>Exchange Return £1</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                 <td>Last 7 days</td>
-                                                <td>4</td>
-                                                <td>75%</td>
-                                                <td>£8.50</td>
-                                            </tr>
-                                            <tr>
-                                                 <td>Last 28 days</td>
-                                                <td>6</td>
-                                                <td >50%</td>
-                                                <td>£15.00</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Last 180 days</td>
-                                                <td>152</td>
-                                                <td>71%</td>
-                                                <td>£3.51</td>
-                                            </tr>
-
-
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                  
-
-                    <div class="col-lg-12 white-bg">
-
-
-                        <div class="col-lg-8  col-md-8 col-sm-12 col-xs-12 p10 white-bg table-responsive">
-                            <table class="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <h3><span class="fa fa-fw fa-clock-o  pull-left"> </span> Historic Bets</h3>
-                                    </tr>
-                                    <tr>
-                                        <th>Bet Ref</th>
-                                        <th>Succesful</th>
-                                        <th>Odds</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>4</td>
-                                        <td class="text-success">Yes</td>
-                                        <td>8.50</td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td class="text-danger">No</td>
-                                        <td>15.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td>152</td>
-                                        <td class="text-success">Yes</td>
-                                        <td>3.51</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-
-                        <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 p10 white-bg">
-                            <table class="table table-striped">
-                                <thead>
-                                    <tr>
-										<th><h4><span class="fa fa-fw fa-users  pull-left"></span> Followers </h4></th>
-                                        
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>generic follower <button class="btn btn-danger btn-xs pull-right"><span class="fa fa-fw fa-trash-o "></span></button></td>
-                                    </tr>
-                                    
-                                    <tr>
-                                        <td>generic follower 
-                                        <button class="btn btn-danger btn-xs pull-right"><span class="fa fa-fw fa-trash-o "></span></button>
-                                        </td>
-                                    </tr>
-                                    
-                                    <tr>
-                                        <td>generic follower 
-									<button class="btn btn-danger btn-xs pull-right"><span class="fa fa-fw fa-trash-o "></span></button>	
-                                   </td>
-                                    </tr>
-                                    
-                                    <tr>
-                                        <td>generic follower 
-									<button class="btn btn-danger btn-xs pull-right"><span class="fa fa-fw fa-trash-o "></span></button>	
-                                   </td>
-                                    </tr>
-                                    
-                                    <tr>
-                                        <td>generic follower 
-									<button class="btn btn-danger btn-xs pull-right"><span class="fa fa-fw fa-trash-o "></span></button>	
-                                   </td>
-                                    </tr>
-                                   
-                                </tbody>
-                            </table>
-                        </div>
-
-
-                    </div>
-                    
-                     </div>
-
-                </div>
-
-            </div>
-
-            <!--Follower account tab-->
-
-            <div class="tab-pane fade in " id="follow_account">
-
-                <div class="row">
-                    <div class="col-lg-12 p10  m10 white-bg table-responsive">
-                        <table class="table table-striped ">
-                            <thead>
-                                <tr>
-                                    <th>Follower Account</th>
-                                    <th>Account Ref</th>
-                                    <th>Follower 1</th>
-                                    <th>Follower 2</th>
-                                    <th>Follower 3</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>generic_follower1</td>
-                                    <td>20098982773</td>
-                                    <td>soccer_genius88</td>
-                                    <td>bettingwizard2015</td>
-                                    <td>jockey23</td>
-                                </tr>
-
-                                <tr>
-                                    <td>generic_follower1</td>
-                                    <td>20098982773</td>
-                                    <td>soccer_genius88</td>
-                                    <td>bettingwizard2015</td>
-                                    <td>jockey23</td>
-                                </tr>
-
-                                <tr>
-                                    <td>generic_follower1</td>
-                                    <td>20098982773</td>
-                                    <td>soccer_genius88</td>
-                                    <td>bettingwizard2015</td>
-                                    <td>jockey23</td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                    </div>
-
-                </div>
-
-
-
-            </div>
-        </div>
-        
-        </div>
-        
-     </div>
-     
-     <!--	Settings modal-->
-
-<div class="modal fade " id="settings" tabindex="-1 " role="dialog " aria-labelledby="settings " aria-hidden="true ">
-            <div class="modal-dialog ">
-                <div class="modal-content ">
-                    <div class="modal-header ">
-                        <button type="button " class="close" data-dismiss="modal" aria-hidden="true ">&times;</button>
-                        <h4 class="modal-title "><span class="fa fa-fw fa-cogs fa-x3 "></span> Settings</h4>
-                    </div>
-                    <div class="modal-body ">
-                        <form role="form ">
-                          <h4>Change Password</h4>
-                          <hr>
-                           <div class="form-group">
-                           <label for="">Old Password</label>
-                            <input class="form-control input-sm " type="password " placeholder="Password " style="display:block; margin-top:10px; width:100%; " />
-                            </div>
-                            
-                            <div class="form-group">
-                           <label for="">New Password</label>
-                            <input class="form-control input-sm " type="password " placeholder="New Password " style="display:block; margin-top:10px; width:100%; " />
-                            
-                            <input class="form-control input-sm " type="password " placeholder="Confirm Password " style="display:block; margin-top:10px; width:100%; " />
-                            </div>
-
-                            
-
-                        </form>
-                    </div>
-                    <div class="modal-footer ">
-                        <button type="button " class="btn btn-sm btn-primary " data-dismiss="modal ">Update <span class="fa fa-fw fa-save "> </span> </button>
-                    </div>
-                </div>
-            </div>
-        </div>
- 
-
-
-
-    <!-- script references -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="plugins/responsive%2520tables/rwd-table.min.js"></script>
-<script>
-   $(function() {
-      $('.table-responsive').responsiveTable();
-   });
-</script>
+	<nav class="navbar navbar-static" role="navigation">
+		<div class="container">
+			<div class="navbar-header " >
+
+				<a class="navbar-brand white-txt" href="#">
+					<span><img src="/img/logo.svg" alt="" style=" margin-top:-10px; height:40px; "> <span class="hidden-xs">Gamblers Unite</span></span>
+				</a>
+				
+				<div class=" navbar-right pull-right " style=" margin-top:10px;">
+
+					<ul class="nav navbar-right top-nav profile">
+
+						<li class="dropdown ">
+							<a href="#" class="dropdown-toggle img-circle " data-toggle="dropdown">
+								<i class="glyphicon glyphicon-user white-txt "></i>
+								
+							</a>
+							<ul class="dropdown-menu pull-right">
+								<li><a href="#">Create Admin</a>
+								</li>
+
+								<li><a href="" data-toggle="modal" data-target="#settings">Settings</a>
+								</li>
+								<li class="divider"></li>
+								<li><a href="#">Sign Out</a>
+								</li>
+
+
+							</ul>
+
+
+						</li>
+
+
+					</ul>
+
+				</div>
+
+			</div>
+			
+			
+
+
+
+
+		</div>
+	</nav>
+	<!-- /.navbar -->
+
+
+	<!-- Begin Body -->
+	<div class="container" style="margin-top:70px;">
+		<div class="row no-padding no-margin" style="margin-left:1px; margin-bottom:20px;">
+			<h2>Welcome to Gamblers Unite</h2>
+
+		</div>
+
+		<div class="tabbable responsive">
+			<!--Tabs-->
+			<ul class="nav nav-tabs " role="tablist">
+				<li class="active" role="presentation"><a href="#log" aria-controls="log" role="tab" data-toggle="tab"><span class="fa fa-fw fa-list-alt "></span><span> Log and Allow Tips  </span></a>
+				</li>
+				<li role="presentation"><a href="#verify" aria-controls="verify" role="tab" data-toggle="tab"><span class="fa fa-fw  fa-rocket"></span> Verify Tip Win </a>
+				</li>
+
+				<li role="presentation"><a href="#tip_account" aria-controls="tip_account" role="tab" data-toggle="tab"><span class="fa fa-fw  fa-user"></span> Tipster Accounts </a>
+				</li>
+
+				<li role="presentation"><a href="#follow_account" aria-controls="follow_account" role="tab" data-toggle="tab"><span class="fa fa-fw  fa-group"></span> Followers Accounts </a>
+				</li>
+
+			</ul>
+			<!-- tabs -->
+
+			<!--			tab content-->
+			<div class="tab-content">
+				<!--log and allow tab-->
+				<div class="tab-pane fade in active" id="log">
+
+					<div class="row ">
+						<div class="col-lg-12 p10 m10 white-bg table-responsive">
+							<table class="table table-striped ">
+								<thead>
+									<tr>
+										<th>Username</th>
+										<th>Single/Accumalator</th>
+										<th>Sport</th>
+										<th>Back/Lay</th>
+										<th>Bet</th>
+										<th>Odds</th>
+										<th>Good to go</th>
+										<th>Ref Id</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>soccer_genius88</td>
+										<td>Single</td>
+										<td>Soccer</td>
+										<td>Back</td>
+										<td>Team A to beat Team B</td>
+										<td>1.21</td>
+										<td>Yes</td>
+										<td>298308</td>
+									</tr>
+
+									<tr>
+										<td>soccer_genius88</td>
+										<td>Single</td>
+										<td>Soccer</td>
+										<td>Back</td>
+										<td>Team A to beat Team B</td>
+										<td>1.21</td>
+										<td>Yes</td>
+										<td>298308</td>
+									</tr>
+
+									<tr>
+										<td>soccer_genius88</td>
+										<td>Single</td>
+										<td>Soccer</td>
+										<td>Back</td>
+										<td>Team A to beat Team B</td>
+										<td>1.21</td>
+										<td>Yes</td>
+										<td>298308</td>
+									</tr>
+
+								</tbody>
+							</table>
+
+						</div>
+
+					</div>
+
+				</div>
+				<!--verify Win tab-->
+				<div class="tab-pane fade in " id="verify">
+
+					<div class="row">
+						<div class="col-lg-12 p10 m10 white-bg table-responsive">
+							<table class="table table-striped ">
+								<thead>
+									<tr>
+										<th>Username</th>
+										<th>Tip Reference</th>
+										<th>Odds</th>
+										<th> Status [Successful or Not]</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>soccer_genius88</td>
+										<td>26382638273983</td>
+										<td>1.21</td>
+										<td>Yes</td>
+									</tr>
+
+									<tr>
+										<td>soccer_genius88</td>
+										<td>26382638273983</td>
+										<td>1.21</td>
+										<td>Yes</td>
+									</tr>
+
+									<tr>
+										<td>soccer_genius88</td>
+										<td>26382638273983</td>
+										<td>1.21</td>
+										<td>Yes</td>
+									</tr>
+
+
+
+								</tbody>
+							</table>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<!--tipster account tab-->
+
+				<div class="tab-pane fade in" id="tip_account">
+
+
+					<div class="row">
+						<div class="col-lg-12 p10 m10 white-bg table-responsive">
+							<table class="table table-striped ">
+								<thead>
+									<tr>
+										<th>Username</th>
+										<th>Account Reference</th>
+										<th>See Profile</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>soccer_genius88</td>
+										<td>26382638273983</td>
+										<td><a href="#tip_account_history" data-toggle="tab">Click Here</a>
+										</td>
+
+									</tr>
+
+									<tr>
+										<td>soccer_genius88</td>
+										<td>26382638273983</td>
+										<td><a href="#tip_account_history" data-toggle="tab">Click Here</a>
+										</td>
+
+									</tr>
+									<tr>
+										<td>soccer_genius88</td>
+										<td>26382638273983</td>
+										<td><a href="#tip_account_history" data-toggle="tab">Click Here</a>
+										</td>
+
+									</tr>
+
+
+								</tbody>
+							</table>
+
+						</div>
+
+					</div>
+
+				</div>
+
+
+				<div role="tabpanel" class="tab-pane fade" id="tip_account_history">
+
+					<div class="row">
+
+						<div class="row no-padding m10 white-bg">
+							<div class="">
+								<button type="button" class="btn btn-sm btn-success m10" data-toggle="tab" data-target="#tip_account"><span class="fa fa-fw fa-angle-left"></span><span class="hidden-xs"> Back </span>
+								</button>
+
+
+
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-primary">
+									<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p10">
+										<div class="col-lg-2 col-md-3 col-sm-3  col-xs-4 no-padding"> <img class="img-circle" src="http://placehold.it/100x100">
+										</div>
+										<div class="col-lg-10 col-md-9 col-sm-9 col-xs-8">
+											<h2>UserName</h2>
+											<h4>Account Ref : 10000001</h4>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 graph_bg pull-right no-padding no-margin">
+
+										<div class="col-lg-12 p10 table-responsive">
+											<table class="table">
+												<thead>
+													<tr>
+														<th> Past </th>
+														<th>
+															<center>Number Tips</center>
+														</th>
+														<th>% Success</th>
+														<th>Exchange Return £1</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Last 7 days</td>
+														<td>4</td>
+														<td>75%</td>
+														<td>£8.50</td>
+													</tr>
+													<tr>
+														<td>Last 28 days</td>
+														<td>6</td>
+														<td>50%</td>
+														<td>£15.00</td>
+													</tr>
+													<tr>
+														<td>Last 180 days</td>
+														<td>152</td>
+														<td>71%</td>
+														<td>£3.51</td>
+													</tr>
+
+
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+
+
+							<div class="col-lg-12 white-bg">
+
+
+								<div class="col-lg-8  col-md-8 col-sm-12 col-xs-12 p10 white-bg table-responsive">
+									<table class="table table-striped">
+										<thead>
+											<tr>
+												<h3><span class="fa fa-fw fa-clock-o  pull-left"> </span> Historic Bets</h3>
+											</tr>
+											<tr>
+												<th>Bet Ref</th>
+												<th>Succesful</th>
+												<th>Odds</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>4</td>
+												<td class="text-success">Yes</td>
+												<td>8.50</td>
+											</tr>
+											<tr>
+												<td>6</td>
+												<td class="text-danger">No</td>
+												<td>15.00</td>
+											</tr>
+											<tr>
+												<td>152</td>
+												<td class="text-success">Yes</td>
+												<td>3.51</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+
+
+								<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 p10 white-bg">
+									<table class="table table-striped">
+										<thead>
+											<tr>
+												<th>
+													<h4><span class="fa fa-fw fa-users  pull-left"></span> Followers </h4>
+												</th>
+
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>generic follower
+													<button class="btn btn-danger btn-xs pull-right"><span class="fa fa-fw fa-trash-o "></span>
+													</button>
+												</td>
+											</tr>
+
+											<tr>
+												<td>generic follower
+													<button class="btn btn-danger btn-xs pull-right"><span class="fa fa-fw fa-trash-o "></span>
+													</button>
+												</td>
+											</tr>
+
+											<tr>
+												<td>generic follower
+													<button class="btn btn-danger btn-xs pull-right"><span class="fa fa-fw fa-trash-o "></span>
+													</button>
+												</td>
+											</tr>
+
+											<tr>
+												<td>generic follower
+													<button class="btn btn-danger btn-xs pull-right"><span class="fa fa-fw fa-trash-o "></span>
+													</button>
+												</td>
+											</tr>
+
+											<tr>
+												<td>generic follower
+													<button class="btn btn-danger btn-xs pull-right"><span class="fa fa-fw fa-trash-o "></span>
+													</button>
+												</td>
+											</tr>
+
+										</tbody>
+									</table>
+								</div>
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<!--Follower account tab-->
+
+				<div class="tab-pane fade in " id="follow_account">
+
+					<div class="row">
+						<div class="col-lg-12 p10  m10 white-bg table-responsive">
+							<table class="table table-striped ">
+								<thead>
+									<tr>
+										<th>Follower Account</th>
+										<th>Account Ref</th>
+										<th>Follower 1</th>
+										<th>Follower 2</th>
+										<th>Follower 3</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>generic_follower1</td>
+										<td>20098982773</td>
+										<td>soccer_genius88</td>
+										<td>bettingwizard2015</td>
+										<td>jockey23</td>
+									</tr>
+
+									<tr>
+										<td>generic_follower1</td>
+										<td>20098982773</td>
+										<td>soccer_genius88</td>
+										<td>bettingwizard2015</td>
+										<td>jockey23</td>
+									</tr>
+
+									<tr>
+										<td>generic_follower1</td>
+										<td>20098982773</td>
+										<td>soccer_genius88</td>
+										<td>bettingwizard2015</td>
+										<td>jockey23</td>
+									</tr>
+								</tbody>
+							</table>
+
+						</div>
+
+					</div>
+
+
+
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<!--	Settings modal-->
+
+	<div class="modal fade " id="settings" tabindex="-1 " role="dialog " aria-labelledby="settings " aria-hidden="true ">
+		<div class="modal-dialog ">
+			<div class="modal-content ">
+				<div class="modal-header ">
+					<button type="button " class="close" data-dismiss="modal" aria-hidden="true ">&times;</button>
+					<h4 class="modal-title "><span class="fa fa-fw fa-cogs fa-x3 "></span> Settings</h4>
+				</div>
+				<div class="modal-body ">
+					<form role="form ">
+						<h4>Change Password</h4>
+						<hr>
+						<div class="form-group">
+							<label for="">Old Password</label>
+							<input class="form-control input-sm " type="password " placeholder="Password " style="display:block; margin-top:10px; width:100%; " />
+						</div>
+
+						<div class="form-group">
+							<label for="">New Password</label>
+							<input class="form-control input-sm " type="password " placeholder="New Password " style="display:block; margin-top:10px; width:100%; " />
+
+							<input class="form-control input-sm " type="password " placeholder="Confirm Password " style="display:block; margin-top:10px; width:100%; " />
+						</div>
+
+
+
+					</form>
+				</div>
+				<div class="modal-footer ">
+					<button type="button " class="btn btn-sm btn-primary " data-dismiss="modal ">Update <span class="fa fa-fw fa-save "> </span> </button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- script references -->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="plugins/responsive%2520tables/rwd-table.min.js"></script>
+	<script>
+		$(function () {
+			$('.table-responsive').responsiveTable();
+		});
+	</script>
 
 </body>
 
