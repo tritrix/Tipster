@@ -6,6 +6,15 @@
 
 /* end */
 
+.graph_bg {
+background:  url(../img/graph_bg.svg)  no-repeat center center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
 /*landing page css*/
 	.landing-bg {
   background: #2ecc71 url(../img/bg-01.png) no-repeat center center fixed;
@@ -179,6 +188,8 @@ header {
 body {
   color:#000;
   background-color:#eee;
+	 font-family: "Roboto";
+
 }
 
 a,a:hover {
@@ -187,19 +198,19 @@ a,a:hover {
 }
 
 .highlight-bk {
-	background-color:#ff3333;
+	background-color:#2ecc71;
     padding:1px;
     width:100%;
 }
 
 .highlight {
-	color:#ff3333;
+	color:#2ecc71;
 }
   
 h3.highlight  {
 	padding-top:13px;
     padding-bottom:14px;
-  	border-bottom:2px solid #ff3333;
+  	border-bottom:2px solid #2ecc71;
 }
 
 .navbar {
@@ -212,13 +223,13 @@ h3.highlight  {
   	color:#fff;
   	padding-left:20px;
   	padding-right:20px;
-  	border-left:1px solid #00ff0a;
+  	border-left:1px solid #2ecc71;
 }
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
     color:#666666; 
 }
 .navbar-nav > li:last-child > a {
-  	border-right:1px solid #00ff0a;
+  	border-right:1px solid #2ecc71;
 }
 .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
     color: #ffffff;
@@ -228,7 +239,7 @@ h3.highlight  {
 	color: #f0f0f0;
 	background-color:transparent;
   	opacity:.9;
-    border-color:#ff3333;
+    border-color:#2ecc71;
 }
 
 .nav .open > a {
