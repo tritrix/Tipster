@@ -13,6 +13,7 @@
 		<![endif]-->
     <link href="css/styles.css" rel="stylesheet">
     <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="plugins/responsive%2520tables/rwd-table.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -20,9 +21,8 @@
     <nav class="navbar navbar-static">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <span style="color:#fff;"><img src="/img/logo.svg" alt="" style=" left:250px; top:5px; height:35px; position:absolute;"> <b>Gamblers Unite</b> </span>
-
+                <a class="navbar-brand white-txt" href="#">
+                     <span><img src="/img/logo.svg" alt="" style=" margin-top:-10px; height:40px; "> Gamblers Unite</span>
                 </a>
             </div>
 
@@ -65,9 +65,9 @@
 
         </div>
 
-
+<div class="tabbable responsive">
         <!--Tabs-->
-        <ul class="nav nav-pills    " role="tablist">
+        <ul class="nav nav-tabs " role="tablist">
             <li class="active" role="presentation"><a href="#log" aria-controls="log" role="tab" data-toggle="tab"><span class="fa fa-fw fa-list-alt "></span><span> Log and Allow Tips  </span></a>
             </li>
             <li role="presentation"><a href="#verify" aria-controls="verify" role="tab" data-toggle="tab"><span class="fa fa-fw  fa-rocket"></span> Verify Tip Win </a>
@@ -88,7 +88,7 @@
             <div class="tab-pane fade in active" id="log">
 
                 <div class="row ">
-                    <div class="col-lg-12 p10 m10 white-bg">
+                    <div class="col-lg-12 p10 m10 white-bg table-responsive">
                         <table class="table table-striped ">
                             <thead>
                                 <tr>
@@ -148,7 +148,7 @@
             <div class="tab-pane fade in " id="verify">
 
                 <div class="row">
-                    <div class="col-lg-12 p10 m10 white-bg">
+                    <div class="col-lg-12 p10 m10 white-bg table-responsive">
                         <table class="table table-striped ">
                             <thead>
                                 <tr>
@@ -197,7 +197,7 @@
 
 
                 <div class="row">
-                    <div class="col-lg-12 p10 m10 white-bg">
+                    <div class="col-lg-12 p10 m10 white-bg table-responsive">
                         <table class="table table-striped ">
                             <thead>
                                 <tr>
@@ -252,18 +252,18 @@
                        
                         
                         
-                        <div class="col-lg-12 bg-primary">
-                            <div class="col-lg-6 p10">
-                                <div class="col-lg-2 no-padding"> <img class="img-circle" src="http://placehold.it/100x100">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-primary">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p10">
+                                <div class="col-lg-2 col-md-3 col-sm-3  col-xs-4 no-padding"> <img class="img-circle" src="http://placehold.it/100x100">
                                 </div>
-                                <div class="col-lg-10">
+                                <div class="col-lg-10 col-md-9 col-sm-9 col-xs-8">
                                     <h2>UserName</h2>
                                     <h4>Account Ref : 10000001</h4>
                                 </div>
                             </div>
-                            <div class="col-lg-6 graph_bg pull-right no-padding no-margin">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 graph_bg pull-right no-padding no-margin">
                                 
-                                <div class="col-lg-12 p10">
+                                <div class="col-lg-12 p10 table-responsive">
                                     <table class="table">
                                         <thead>
                                             <tr>
@@ -283,7 +283,7 @@
                                             <tr>
                                                  <td>Last 28 days</td>
                                                 <td>6</td>
-                                                <td class="bg-danger">50%</td>
+                                                <td >50%</td>
                                                 <td>£15.00</td>
                                             </tr>
                                             <tr>
@@ -307,7 +307,7 @@
                     <div class="col-lg-12 white-bg">
 
 
-                        <div class="col-lg-8 p10 white-bg">
+                        <div class="col-lg-8  col-md-8 col-sm-12 col-xs-12 p10 white-bg table-responsive">
                             <table class="table table-striped">
                                 <thead>
                                     <tr>
@@ -340,7 +340,7 @@
                         </div>
 
 
-                        <div class="col-lg-4 p10 white-bg">
+                        <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 p10 white-bg">
                             <table class="table table-striped">
                                 <thead>
                                     <tr>
@@ -395,7 +395,7 @@
             <div class="tab-pane fade in " id="follow_account">
 
                 <div class="row">
-                    <div class="col-lg-12 p10  m10 white-bg">
+                    <div class="col-lg-12 p10  m10 white-bg table-responsive">
                         <table class="table table-striped ">
                             <thead>
                                 <tr>
@@ -442,6 +442,7 @@
             </div>
         </div>
         
+        </div>
         
      </div>
      
@@ -488,7 +489,12 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-
+    <script src="plugins/responsive%2520tables/rwd-table.min.js"></script>
+<script>
+   $(function() {
+      $('.table-responsive').responsiveTable();
+   });
+</script>
 
 </body>
 
