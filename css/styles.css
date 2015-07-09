@@ -55,7 +55,10 @@ background-color:#2ecc71;
 }
 
 .landing-logo {
-width: 100%;
+    padding:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+width: 60%;
 	
 	
 }
